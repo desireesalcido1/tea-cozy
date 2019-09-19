@@ -157,7 +157,7 @@ body {
   background-repeat: no;
   background-position: center;
   height: 700px;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 40px auto 40px auto;
   display: flex;
 }
@@ -168,11 +168,59 @@ body {
   width: 100%;
 }
 
-.card {
-  height: 200px;
-  width: 300px;
+.featured-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 10px;
+}
+
+.banner {
+  height: 500px;
+  max-width: 1200px;
+  margin: 40px auto auto auto;
+  padding-top: 85px;
+  background-image: url('../img/locations.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-top {
+  font-weight: bold;
+}
+
+.box-container {
+  max-width: 1050px;
+  margin: 15px auto auto auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.box {
+  height: 300px;
+  padding: 20px;
+  margin-bottom: auto;
+  flex-basis: 30%;
+  box-sizing: border-box;
+  background-color: black;
+  opacity: 0.8;
+}
+
+footer {
+  display: block;
+  float: left;
+  padding-left: 20px;
+}
 
 
  /* ==========================================================================
