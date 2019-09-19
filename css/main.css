@@ -105,7 +105,7 @@ body {
   line-height: 1.4;
   font-family: Helvetica;
   color: seashell;
-  background-color: black;
+  background-color: #2e2d2d;
   opacity: 0.9;
   text-align: center;
 }
@@ -116,7 +116,7 @@ body {
   height: 69px;
   position: fixed;
   display: block;
-  background-color: black;
+  background-color: #2e2d2d;
   top: 0px;
   border-bottom: 1px solid seashell;
 }
@@ -124,7 +124,7 @@ body {
 .logo {
   height: 50px;
   float: left;
-  padding-left: 10px;
+  padding: 10px;
 }
 
 .nav {
@@ -164,7 +164,7 @@ body {
 
 .text-over {
   margin: auto;
-  background-color: black;
+  background-color: #2e2d2d;
   width: 100%;
 }
 
